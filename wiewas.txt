@@ -1,0 +1,36 @@
+11/4/2022 versuche jetzt die zeitleiste für die erste demo hinzubekommen, ist aber schon schwierig.
+wann hatte ich angefangen zu überlegen? in der bahn nach frankfurt? im flugzeug?
+nein, denke, da habe ich noch an dem paulafast und paulaproto überlegt.
+idee zum nodevember kam mir erst am 31? oder am 1?
+vor dem flug habe ich auch noch den commander x16 heruntergeladen, hätte lust etwas (Doom :-) dafür zu schreiben
+---
+// bin file mit paulaproto also python einlesen:
+//   https://stackoverflow.com/questions/60506331/conversion-of-binary-lidar-data-bin-to-point-cloud-data-pcd-format
+// https://www.commanderx16.com/forum/index.php?/home/
+---
+
+also nodevember
+
+which language to use?
+C++ nope
+shader only?
+python, hmm (anm. am 11/4/22: mit open3d könnte es ganz gut gehen)
+
+soll ja zu schnellen ergebnissen führen
+three.js? allein der download ist über 300 MB gross, ist ja irre
+
+processing
+wie war das nochmal gibt ja die javascript variante, habe ich schonmal genutzt für die bierdeckel app
+
+p5.js, that seems to be good, die minified version ist nur 900 KB(!) gross
+
+tag 1+2
+thema der ersten beiden tage ist : "space junkyard"
+auf dem weg zu den ersten processing schritten und "wie bekomme ich perlin noise", stolpere ich über die spiralen bilder: https://happycoding.io/gallery/spirals/index
+spirale bekomme ich einfach hin, mit der parameterform des kreises. animation geht auch, ist aber langsam. ich vermute, es liegt nicht am zeichnen der 5000 punkte, sondern eher am berechnen von sin und cos. ich brauche eine lookup table für sin u. cos
+-> beim erstellen der spirale ist mir ein fehler unterlaufen, ich habe nicht von deg in rad gewandelt, daher war der kreis aufgesplittet, diesen effekt habe ich für das space debris bild genutzt
+
+tag 3+4
+psychedelic alley, bei der idee zu einer alley, die im raum verddreht ist, komme ich auf goedel und escher und schliesslich zu einem bild von einer hexagonalen treppe 
+hier fällt mir der boing ball ein
+parametrische formel für ein hexagon?

@@ -1,0 +1,4 @@
+11/2/2022
+
++ blur for the whole image
+- bokeh or blurring filter for each of the circles
