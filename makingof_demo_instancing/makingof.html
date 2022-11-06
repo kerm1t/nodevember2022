@@ -1,0 +1,47 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+    <script src="../p5.min.js"></script>
+	<script language="javascript" type="text/javascript" src="nemo.js"></script>
+	<!-- uncomment lines below to include extra p5 libraries -->
+	<!-- 	<script language="javascript" src="libraries/p5.dom.js"></script> -->
+	<!--<script language="javascript" src="libraries/p5.sound.js"></script>-->
+	<!--<script language="javascript" type="text/javascript" src="sketch.js"></script>-->
+	<!-- this line removes any default padding and style. you might only need one of these values set. -->
+	<style> body {padding: 0; 
+		margin: 0;
+		font-family: courier;
+	} 
+</style>
+</head>
+<body>
+	<div><h1><a href="https://nodevember.io/">#nodevember 2022</a></h1><h2>topic: oceanic wonder</h2></div> <br>
+	<div>idea : create a flock of fishes, that rotates similar to a torus. there's a flocking example for p5.js:<br>
+		<a href="https://p5js.org/examples/simulate-flocking.html">https://p5js.org/examples/simulate-flocking.html</a><br>
+	Now the flock consists of triangles, so it might be nice to replace this by a fish. also everything should be in 3d<br>
+    to get the torus rotation, so use of WEBGL-canvas and beginShape(...)
+</div> <br>
+	<div>idea : create a fish from 2 arcs of a circle, align both such that the body and the fin are formed.</div> <br>
+	
+	<div id="c1"></div> <br>
+	
+	<div>Now, this was quite a hassle to find good x and y start coordinates to align the both arcs.<br>
+		Next would be to be able to draw the fish in any location and any angle.<br>
+		Such it is easy to use frameCount to rotate the fish:<br>
+	    Also here I use Ocean color palette
+		<a href="https://www.color-hex.com/color-palette/47651">https://www.color-hex.com/color-palette/47651</a> <br>
+		And create a grid, as this reminds me of the <a href="http://www.clavius.org/photoret.html">moon pictures</a>
+    </div> <br>
+
+	<div id="c2"></div><br>
+
+	<div>It would be easy to find good coordinates, when using mouse pos as start for drawing the fish.<br>
+	Such use mouseX and mouseY to draw the fish.<br>
+    also rotate the fish, so it "swims" horizontally.</div> <br>
+	
+	<div id="c3"></div><br>
+	
+	<div>Next up: draw multiple fish</div> <br>
+	<div>Next up: go back to 1 fish and follow the mouse with a direction</div> <br>
+	</body>
+</html>
