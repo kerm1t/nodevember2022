@@ -8,3 +8,5 @@ day2
 
 day3
 ![3_flocking_or_crazyness](https://user-images.githubusercontent.com/26294323/200167981-8238f866-e5bc-478a-9b09-ca4720c0ac09.png)
+
+vacation is over and work week starts, have to drop out, see ya nxt year
